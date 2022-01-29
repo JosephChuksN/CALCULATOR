@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to right,#7900FF,#548CFF,#93FFD8);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#container{
+    margin-top: 200px;
+}
+#tb-cont{
+    text-align: center;
+    background-image: linear-gradient(to right,#7900FF,#548CFF,#93FFD8);
+    padding: 20px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: rgb(0, 0, 0.56) 0 22px 70px 4px;
+}
+input[type=text]{
+    margin-left: 10px;
+    font-size: 26px;
+    width: 100%;
+    padding: 10px;
+    border-style: none;
+}
+#clear{
+    font-size: 26px;
+    border-radius: 0;
+    padding: 10px;
+}
+input[type=button]{
+    font-size: 26px;
+    border-style: none;
+    border-radius: 20px;
+    padding: 25px;
+}
