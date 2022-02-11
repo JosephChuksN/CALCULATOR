@@ -19,6 +19,6 @@ function calculate(){
 }
 
 function Clr(){
-    outputScreen.value = " ";
+    outputScreen.value = outputScreen.innerHTML;
 }
 
